@@ -4,10 +4,17 @@
 * Tempalte URI: https://untree.co/
 * License: https://creativecommons.org/licenses/by/3.0/
 */
+
+
 body {
-  font-family: "Roboto", sans-serif;
-  background-color: #fff;
-  font-weight: 300;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style:normal;
+  font-variation-settings:
+    "wdth" 100;
+  background-color:#fffdf6;
+  font-weight: 500;
   color: rgba(0, 0, 0, 0.5);
   color: #707070;
   line-height: 1.7;
