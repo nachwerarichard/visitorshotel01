@@ -15,6 +15,7 @@
 
   <meta name="description" content="" />
   <meta name="keywords" content="" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -65,7 +66,7 @@
           <div class="site-nav-ul-wrap text-center d-none d-lg-block">
             <ul class="site-nav-ul js-clone-nav">
               <li><a href="home.html">Home</a></li>
-              <li class="has-children active">
+              <li class="has-children ">
                 <a href="rooms.html">Rooms</a>
                 
               </li>
@@ -86,63 +87,157 @@
 
       <main class="untree_co--site-main">
         
-        <div class="untree_co--site-hero inner-page" style="background-image: url('images/slider_2.jpg')">
-          <div class="container">
-            <div class="row align-items-center justify-content-center">
-              <div class="col-md-7 text-center">
-                <div class="site-hero-contents" data-aos="fade-up">
-                  <h1 class="hero-heading text-white">Our Rooms</h1>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="untree_co--site-section pb-0">
+        
+        <div  style="background-color: #ece8d9;"class="untree_co--site-section pb-0">
           <div class="container-fluid px-md-0">
-            <div class="row no-gutters align-items-stretch room-animate site-section pb-0">
-              <div class="col-md-7 order-md-2 img-wrap" data-jarallax-element="-100">
-                <div class="bg-image h-100" style="background-color: #efefef; background-image: url('images/slider_2.jpg');"></div>
-              </div>
-              <div class="col-md-5">
-                <div class="row justify-content-center">
-                  <div class="col-md-8 py-5">
-                    <h3 class="display-4 heading">Queen &amp; Double Bedroom</h3>
-                    <div class="room-exerpt">
-                      <div class="room-price mb-4">$200<span class="per">/night</span></div>
-                      <p>A hotel is an establishment that provides paid lodging on a short-term basis. Facilities provided may range from a modest-quality mattress </p>
-
-                      <p>Small, lower-priced hotels may offer only the most basic guest services and facilities. </p>
-
-                      <div class="row mt-5">
-                        <div class="col-12">
-                          <h3 class="mb-4">Amenities</h3>
-                          <ul class="list-unstyled ul-check">
-                            <li>32-inch LCD TV with cable channels and DVD player</li>
-                            <li>Handheld and mounted rain shower heads</li>
-                            <li>Wi-Fi access</li>
-                            <li>Safety deposit box</li>
-                            <li>Mini-bar</li>
-                          </ul>
-                        </div>
+            
+          </div>
+          <section class="h-100 bg-light">
+            <div class="container py-5 h-100">
+              <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col">
+                  <div class="card card-registration my-4">
+                    <div class="row g-0">
+                      <div class="col-xl-6 d-none d-xl-block">
+                        <img src="images/img_5.avif"
+                          alt="Sample photo" class="img-fluid"
+                          style="border-top-left-radius: .25rem; border-bottom-left-radius: .25rem;" />
                       </div>
-                      <div class="post-entry-contents">
-                        <p><a href="booking03.html" class="readmore">Book Now</a></p>
+                      <div class="col-xl-6">
+                        <div class="card-body p-md-5 text-black">
+                          <h3 class="mb-5 text-uppercase">FILL THis Booking form</h3>
+          
+                          <div class="row">
+                            <div class="col-md-6 mb-4">
+                              <div data-mdb-input-init class="form-outline">
+                                <input type="text" id="form3Example1m" class="form-control form-control-lg" />
+                                <label class="form-label" for="form3Example1m">First name</label>
+                              </div>
+                            </div>
+                            <div class="col-md-6 mb-4">
+                              <div data-mdb-input-init class="form-outline">
+                                <input type="text" id="form3Example1n" class="form-control form-control-lg" />
+                                <label class="form-label" for="form3Example1n">Last name</label>
+                              </div>
+                            </div>
+                          </div>
+          
+                          <div data-mdb-input-init class="form-outline mb-4">
+                            <input type="number" id="form3Example9" class="form-control form-control-lg" />
+                            <label class="form-label" for="form3Example9">Phone Number</label>
+                          </div>
+          
+                          
+                          <div data-mdb-input-init class="form-outline mb-4">
+                            <input type="email" id="form3Example8" class="form-control form-control-lg" />
+                            <label class="form-label" for="form3Example8">Email</label>
+                          </div>
+                          <div data-mdb-input-init class="form-outline mb-4">
+                            <input type="text" id="form3Example90" class="form-control form-control-lg" />
+                            <label class="form-label" for="form3Example90">Nationality</label>
+                          </div>
+                          <div class="row">
+                            <div class="col-md-6 mb-4">
+                              <div data-mdb-input-init class="form-outline">
+                                <input type="date" id="form3Example1m1" class="form-control form-control-lg" />
+                                <label class="form-label" for="form3Example1m1">Check in</label>
+                              </div>
+                            </div>
+                            <div class="col-md-6 mb-4">
+                              <div data-mdb-input-init class="form-outline">
+                                <input type="date" id="form3Example1n1" class="form-control form-control-lg" />
+                                <label class="form-label" for="form3Example1n1">Check out</label>
+                              </div>
+                            </div>
+                          </div>
+
+                          
+          
+                          <div class="row">
+                            <div class="col-md-6 mb-4">
+          
+                              <select data-mdb-select-init>
+                                <option value="1">Room</option>
+                                <option value="2">Single room </option>
+                                <option value="3">Double room</option>
+                                <option value="4">two-bedroom </option>
+                              </select>
+          
+                            </div>
+                            <div class="col-md-6 mb-4">
+          
+                              <select data-mdb-select-init>
+                                <option value="1">Location</option>
+                                <option value="2">High floor</option>
+                                <option value="3">Quiet area</option>
+                                <option value="4">Lower floor</option>
+                              </select>
+          
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-md-6 mb-4">
+          
+                              <select data-mdb-select-init>
+                                <option value="1">Bed Preference</option>
+                                <option value="2">King </option>
+                                <option value="3">Twin</option>
+                              </select>
+          
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <select data-mdb-select-init>
+                                    <option value="1">Number of rooms</option>
+                                    <option value="2">1</option>
+                                    <option value="3">2</option>
+                                  </select>
+                              </div>
+                            
+                          </div>
+                          <div class="row">
+                            <div class="col-md-6 mb-4">
+          
+                              <select data-mdb-select-init>
+                                <option value="1">Services</option>
+                                <option value="2">Dinner Reservations </option>
+                                <option value="3">Tours</option>
+                                <option value="3">None</option>
+
+                              </select>
+          
+                            </div>
+                           
+                            
+                          </div>
+          
+                          
+          
+                          
+          
+                          <div class="d-flex justify-content-end pt-3">
+                            <button  type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-light btn-lg">Reset all</button>
+                            <button  type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-secondary btn-lg ms-2">Submit form</button>
+                          </div>
+          
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-
               </div>
             </div>
-          </div>
+          </section>
+
+
+          
         </div>
 
     
-       
+        
 
 
       </main>
-      <footer style="background-color: #494949; color:#fffdf6;"class="untree_co--site-footer">
+      <footer style="background-color: #494949; color:#fffdf6;" class="untree_co--site-footer">
 
         <div class="container">
           <div class="row">
@@ -260,5 +355,7 @@
 
 
     <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
   </body>
 </html>
